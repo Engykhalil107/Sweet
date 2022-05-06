@@ -1,0 +1,128 @@
+*{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bad Script', cursive;
+    font-weight: bold;
+}
+.sec1 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(220,220,220,.3), rgba(220,220,220,.3)) , url(../images/pexels-ylanite-koppens-2343174.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+
+    
+}
+h1 {
+    color: rgb(171,139,140);
+    font-size: 450%;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding: 150px 150px 50px 150px;
+    margin-top: 50px;
+}
+.btn {
+    margin-left: 180px;
+}
+.btn a:link , a:visited {
+    display: inline;
+    border: rgb(209,171,132) solid 1px;
+    color: rgb(171,139,140);
+    padding: 15px 40px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.btn a:hover , a:active {
+    background-color: rgb(171,139,140);
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: 20px;
+}
+.sec3 {
+    height: 400px; width: 1000px;
+    background-image: url(../images/pexels-jill-wellington-3776947.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.word {
+    padding: 80px;
+    text-align: center;
+    margin-top: 35px;
+}
+.word h2 {
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.word p {
+    margin-bottom: 40px;
+}
+.word a:link {
+    color: rgb(171,139,140);
+    border: solid 1px rgb(194,156,85);
+    text-decoration: none;
+    padding-top: 15px; padding-right: 20px;
+    padding-bottom: 15px; padding-left: 20px;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.word a:hover {
+    background-color: rgb(171,139,140);
+    color: white;
+    text-decoration: none;
+}
+.offer {
+    text-align: center;
+    margin-top: 40px;
+}
+.offer h5 {
+    color: rgb(194,156,85);
+}
+.offer h2 {
+    font-weight: 200% bolder;
+    letter-spacing: 3px;
+}
+.offer p {
+    margin: 0px 50px 0px 50px;
+}
+.sec5 {
+    width: 1000px; height: 500px;
+    background-image: url(../images/pexels-acharaporn-kamornboonyarush-1028704.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.left {
+    float: left;
+    margin: 50px;
+    text-align: justify;
+    margin-top: 100px;
+}
+.right{
+    float:right;
+    margin-right: 100px;
+}
+.right a:link , a:visited {
+    color: white;
+    border: solid 1px rgb(194,156,85);
+    background-color: rgb(194,156,85);
+    padding: 20px;
+}
+.right a:hover {
+    color: rgb(194,156,85);
+    border: solid 1px rgb(194,156,85);
+    background-color: rgba(220,220,220,.3);
+}
+.sec6 {
+    margin: 35px;
+}
+.sec6 img {
+    margin-left: 500px;
+}
